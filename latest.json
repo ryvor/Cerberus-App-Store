@@ -34,7 +34,7 @@
 			"ports": [{
 				"host": 8080,
 				"container": 8080,
-				"protocol": "",
+				"protocol": "TCP",
 				"label": "Web UI"
 			}, {
 				"host": 53,
