@@ -17,19 +17,9 @@
 		},
 		"tags": [],
 		"highlights": [],
-		"versions": [{
-			"tag": "latest",
-			"label": "Latest"
-		}, {
-			"tag": "edge",
-			"label": "Edge"
-		}, {
-			"tag": "beta",
-			"label": "Beta"
-		}],
 		"links": {},
 		"deployments": [{
-			"name": "latest",
+			"name": "Latest",
 			"image": "adguard/adguardhome:latest",
 			"ports": [{
 				"host": 8080,
@@ -98,13 +88,13 @@
 			}],
 			"environment": []
 		}, {
-			"name": "edge",
+			"name": "Edge",
 			"image": "adguard/adguardhome:edge",
 			"ports": [],
 			"volumes": [],
 			"environment": []
 		}, {
-			"name": "beta",
+			"name": "Beta",
 			"image": "adguard/adguardhome:beta",
 			"ports": [],
 			"volumes": [],
