@@ -34,47 +34,58 @@
 			"ports": [{
 				"host": 8080,
 				"container": 8080,
+				"protocol": "",
 				"label": "Web UI"
 			}, {
 				"host": 53,
 				"container": 53,
-				"label": "TCP/UDP"
+				"protocol": "TCP/UDP",
+				"label": ""
 			}, {
 				"host": 67,
 				"container": 67,
-				"label": "UDP"
+				"protocol": "UDP",
+				"label": ""
 			}, {
 				"host": 68,
 				"container": 68,
-				"label": "UDP"
+				"protocol": "UDP",
+				"label": ""
 			}, {
 				"host": 80,
 				"container": 80,
-				"label": "TCP"
+				"protocol": "TCP",
+				"label": ""
 			}, {
 				"host": 443,
 				"container": 443,
-				"label": "TCP/UDP"
+				"protocol": "TCP/UDP",
+				"label": ""
 			}, {
 				"host": 3000,
 				"container": 3000,
-				"label": "TCP"
+				"protocol": "TCP",
+				"label": ""
 			}, {
 				"host": 853,
 				"container": 853,
-				"label": "TCP/UDP"
+				"protocol": "TCP/UDP",
+				"label": ""
 			}, {
 				"host": 784,
 				"container": 784,
-				"label": "UDP"
+				"protocol": "UDP",
+				"label": ""
 			}, {
 				"host": 8853,
 				"container": 8853,
-				"label": "UDP"
+				"protocol": "UDP",
+				"label": ""
 			}, {
 				"host": 5443,
 				"container": 5443,
-				"label": "TCP/UDP"
+				"protocol": "TCP/UDP",
+				"label": ""
 			}],
 			"volumes": [{
 				"host": "./Data/working",
